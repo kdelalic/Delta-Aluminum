@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+
+  .nav.navbar-fixed-top {
+    height: 54px!important;
+  }
+
+  .nav img{
+    transform: scale(0.5)!important;
+    margin-top: -31px!important;
+  }
+
+  .nav ul{
+    margin-top: 1px!important;
+    border-bottom: 1px solid black;
+  }
+
+  .navbar-brand {
+    padding: 14px 0px!important;
+    margin-left: -30px!important;
+  }
+
+  .navbar-toggle {
+    margin-top: 10px!important;
+  }
+
+  .li-border {
+    width: 93%!important;
+    border-top: 1px solid #BDC3C7!important;
+    margin: 0 auto!important;
+    visibility: visible!important;
+  }
+
+	.title {
+		padding-top: 0px!important;
+		padding-bottom: 0px!important;
+		height: 108px!important;
+	}
+
+  .title h3 {
+		margin-top: 68px!important;
+	}
+
+  .content .container {
+    padding-left: 0!important;
+    padding-right: 0!important;
+  }
+
+	.footer {
+    padding: 0!important;
+  }
+
+  .footer .row div:nth-child(2) {
+    margin-top: 225px!important;
+  }
+
+  .footer .row div:first-child {
+    margin-top: 35px!important;
+  }
+
+  .footer .row div:last-child {
+    margin-bottom: 25px!important;
+    margin-top: 40px!important;
+  }
+
+  .footer .col-md-4 {
+    padding-left: 0px!important;
+    padding-right: 0px!important;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+
+  .footer .copyright {
+    padding: 0 10px 20px;
+  }
+}
+
+.nav.expand {
+  opacity: 1!important;
+}
+
+.nav.navbar-fixed-top {
+  border-bottom: 1px solid black;
+}
+
+.nav .li-border {
+    width: 93%;
+    border-top: 1px solid grey;
+    margin: 0 auto;
+    visibility: hidden;
+}
+
+.title {
+	padding-top: 112px;
+ 	margin-bottom: 0;
+ 	background-color: #f2f2f2;
+ 	padding-bottom: 40px;
+ 	border-bottom: 1px solid #dbdbdb;
+}
+
+.title h3 {
+	color: #404040;
+	opacity: 1;
+	margin-top: 37px;
+  	margin-bottom: -3px;
+  	opacity: 0;
+}
+
+.content {
+	padding: 40px;
+}
+
+.content img {
+	border: 1px solid lightgrey;
+	margin-bottom: 0;
+}
+
+.content img:hover {
+	border: 1px solid black;
+	margin-bottom: 0;
+}
+
+.content h4 {
+	font-weight: bold;
+	opacity: 0;
+}
+
+.content .col-md-9 p{
+	margin: 9px 0 25px;
+	opacity: 0;
+}
+
+.thumbnail {
+	border: 0px solid black!important;
+}
+
+.caption p {
+	margin: 0;
+	text-align: center;
+}
+
