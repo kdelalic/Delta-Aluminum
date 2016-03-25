@@ -125,5 +125,6 @@
     ModPagespeedEnableFilters collapse_whitespace,remove_comments
 </IfModule>
 
-RewriteEngine On RewriteBase / RewriteCond %{HTTP_HOST} ^www.deltaaluminum.com [NC] RewriteRule ^(.*)$ 
-http://deltaaluminum.com/$1 [L,R=301]
+RewriteEngine on
+        RewriteCond %{HTTP_HOST} ^www\.deltaaluminum\.com$
+        RewriteRule ^/?$ "http\:\/\/deltaaluminum\.com\/" [R=301,L]
