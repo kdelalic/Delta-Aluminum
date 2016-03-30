@@ -125,6 +125,3 @@
     ModPagespeedEnableFilters collapse_whitespace,remove_comments
 </IfModule>
 
-RewriteEngine on
-        RewriteCond %{HTTP_HOST} ^www\.deltaaluminum\.com$
-        RewriteRule ^/?$ "http\:\/\/deltaaluminum\.com\/" [R=301,L]
