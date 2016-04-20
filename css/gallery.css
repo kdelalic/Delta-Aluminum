@@ -113,3 +113,6 @@
 	border: grey 1px solid;
 }
 
+.thumbnail img {
+  width:100%;
+}
