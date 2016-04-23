@@ -101,10 +101,25 @@
   opacity: 0;
 }
 
+.content h4 button{
+  background:none;border:none;
+  padding-left:1px;
+  padding-right:1px;
+  outline:none;
+}
+
 .thumbnail:hover{
 	border: grey 1px solid;
 }
 
 .thumbnail img {
   width:100%;
+}
+
+.socialmedia {
+  margin-top: 50px;
+}
+
+.socialmedia a img {
+  width: 50px;
 }

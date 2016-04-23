@@ -144,3 +144,11 @@
 	margin-left: -4px;
 	opacity: 0;
 }
+
+.socialmedia {
+  margin-top: 50px;
+}
+
+.socialmedia a img {
+  width: 50px;
+}

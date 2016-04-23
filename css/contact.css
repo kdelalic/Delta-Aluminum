@@ -113,3 +113,11 @@
   margin-left: auto;
   margin-right: auto;
 }
+
+.socialmedia {
+  margin-top: 50px;
+}
+
+.socialmedia a img {
+  width: 50px;
+}

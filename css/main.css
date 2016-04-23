@@ -517,6 +517,14 @@ FOOTER*/
   margin-bottom: -8px;
 }
 
+.socialmedia {
+  margin-top: 50px;
+}
+
+.socialmedia a img {
+  width: 50px;
+}
+
 iframe {
   border:0;
 }
