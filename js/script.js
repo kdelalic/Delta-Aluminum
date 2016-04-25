@@ -25,8 +25,6 @@ $(document).ready(function() {
     jQuery.scrollSpeed(120, 400);
   });
 
-  $('*').delay(0).animate({ opacity: 1 }, 200);
-
   $("nav").find("li").on("click", "a", function () {
     $('.navbar-collapse.in').collapse('hide');
   });

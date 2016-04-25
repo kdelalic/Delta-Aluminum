@@ -1,1 +1,1 @@
-Sitemap: http://deltaaluminum.com/sitemap.xml
+Sitemap: https://deltaaluminum.com/sitemap.xml
