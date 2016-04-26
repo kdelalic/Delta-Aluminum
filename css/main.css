@@ -16,7 +16,7 @@ body {
   src: url("/fonts/shift-bold.woff") format("woff");
 }
 
-.h1, h1, #jumbotroncarousel p, #jumbotroncarousel a, .nav *, .expand, .shrink {
+.h1, h1, #jumbotroncarousel p, #jumbotroncarousel a, .nav *:not(a), .expand, .shrink {
   -webkit-transition: all 0.4s ease;
   transition: all 0.4s ease;
 }
@@ -51,7 +51,12 @@ html p, a, h3, h4{
   .nav.navbar-fixed-top {
     height: 54px!important;
   }
-
+  .nav .active a{
+      border-bottom: 0!important;
+    }
+    .nav li a:hover {
+      border-bottom: 0!important;
+    }
   .nav img{
     transform: scale(0.5)!important;
     margin-top: -31px;
@@ -162,7 +167,7 @@ NAV BAR*/
 
 .nav a {
   color: #fff;
-  font-size: 13px;
+  font-size: 15px;
   padding: 14px 15px;
   text-transform: uppercase;
   font-weight: bold;
@@ -188,10 +193,12 @@ NAV BAR*/
   background-color: transparent;
   text-decoration: none;
   color: #BDC3C7;
+  border-bottom: solid 3px #5E84AA;
 }
 
-.active a{
+.nav .active a{
   color: #BDC3C7;
+  border-bottom: solid 3px #5E84AA;
 }
 
 .icon-bar {
@@ -248,10 +255,6 @@ JUMBOTRON*/
 
 #jumbotroncarousel .carousel-inner {
   height: inherit;
-}
-
-#jumbotroncarousel .container h1, #jumbotroncarousel .container h2 {
-  margin-top: 150px;
 }
 
 #jumbotroncarousel .glyphicon {
@@ -417,18 +420,17 @@ CONTENT*/
 }
 
 #reviewcarousel .carousel-inner .item {
-    width: 100%;
-    height: 400px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
+	width: 100%;
+	height: 400px;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 }
 
 #reviewcarousel .carousel-inner .item {
-  height: inherit;
-  display: flex;
-  align-items: center;
+   top: 20%;
+   left: 1.8%;
 }
 
 #reviewcarousel blockquote {
@@ -519,17 +521,10 @@ FOOTER*/
 
 .socialmedia {
   margin-top: 50px;
+  margin-right:auto;
+  margin-left:auto;
 }
 
 .socialmedia a img {
   width: 50px;
-}
-
-iframe {
-  border:0;
-}
-
-.overlay {
-   background:transparent; 
-   position:relative; 
 }
